@@ -297,6 +297,7 @@ border-radius: 12px;
 }
 
 .nav_fancy_button3{
+    border: none;
     margin-left: 15px;
     display: flex;
 flex-direction: column;
@@ -377,6 +378,7 @@ height: 458px;
     }
 
 .nav_fancy_button4{
+    border: none;
     display: flex;
 
 padding: 16px 24px 16px 16px;
