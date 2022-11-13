@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:wght@700&display=swap');
 
 body{
     margin: 0px;
@@ -82,25 +83,29 @@ padding: 20px 80px;
 
 .content{
 display: grid;
-grid-template-rows: 1rf 1fr 1fr 1fr;
+grid-template-rows: 1rf 1fr 1fr;
 
+}
+.wrapper{
+  padding-top: 189px ;  
+  padding: 20px 80px;
+  height: 500px;
 }
 
 .advertisement{
     display: flex;
 flex-direction: row;
-align-items:stretch;
+align-items:center;
 }
 
 .image1{
-        display: flex;
-        flex-direction: row;
-        justify-content:flex-end;
-    /* position: absolute; */
-    width: 687px;
-    height: 458px;
-    left: -34px;
-    top: -12px;
+     padding-bottom: 10px;
+    max-width: 687px;
+height: 380px;
+top: 100px; 
+left: 750px; 
+position: absolute;
+
 }
 
 .text_ad{
@@ -138,6 +143,8 @@ color: #000000;
     gap:8px;
     background-color: #712FFF;
     cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Inter';
 }
 
 .nav_fancy_button2:hover{
@@ -160,7 +167,7 @@ align-items: center;
 padding: 100px 80px;
 gap: 86px;
 width: auto;
-height: 562px;
+height: 440px;
 background: #E1DEE7;
 border-radius: 32px;
 }
@@ -175,6 +182,7 @@ border-radius: 32px;
     line-height: 16px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 align-items: center;
 text-align: center;
     color: #000000;
@@ -198,7 +206,8 @@ color: #000000;
 .steps{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+align-items: center;
+justify-content: space-around;
 }
 
 .step_text1{
@@ -268,20 +277,30 @@ background: #F1F1F1;
 }
 
 .search_job{
-    box-sizing: border-box;
+ 
+
+left: 13px;
+top: 13px;
+        background:url(./assets/Search.png);
+        background-repeat:no-repeat;
+box-sizing: border-box;
 
 width: 619px;
 height: 50px;
-
-background: #FFFFFF;
+font-family: 'Inter';
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* background: #FFFFFF; */
 border: 1px solid #E1DEE7;
 border-radius: 12px;
 }
 
 .nav_fancy_button3{
+    margin-left: 15px;
     display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 padding: 16px 24px;
 gap: 10px;
@@ -289,6 +308,16 @@ width: 106px;
 height: 50px;
 background: #712FFF;
 border-radius: 100px;
+color: #FFFFFF;
+font-family: 'Inter';
+}
+
+.search_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
 }
 
 .upload_cv{
@@ -297,7 +326,7 @@ width: 757px;
 height: 222px;
 display: flex;
 flex-direction: column;
-align-items: flex-start;
+align-items: center;
 padding: 0px;
 position: relative;
 width: auto;
@@ -310,20 +339,19 @@ align-items:stretch;
 
 .image2{
     display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-/* position: absolute; */
+    /* flex-direction: row;
+    justify-content:flex-end; */
 width: 687px;
 height: 458px;
-left: -34px;
-top: -12px;
+
 }
 
 .upload2row{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content:center;
+    justify-content:unset;
 }
 
 .title_text2{
@@ -345,18 +373,21 @@ top: -12px;
     font-size: 16px;
     line-height: 22px;
     color: #000000;
+    padding-bottom: 10px;
     }
 
 .nav_fancy_button4{
-    align-items: flex-start;
+    display: flex;
+
 padding: 16px 24px 16px 16px;
 gap: 8px;
 
 width: 114px;
 height: 50px;
-
+font-family: 'Inter';
 background: #712FFF;
 border-radius: 100px;
+color: #FFFFFF;
 }
 
 .footer{
@@ -400,4 +431,3 @@ border-radius: 32px 32px 0px 0px;
 align-items: center;
 text-align: center;
 }
-
